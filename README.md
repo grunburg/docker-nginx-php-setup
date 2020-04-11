@@ -7,7 +7,7 @@ Docker web-server which uses **[NGINX](https://hub.docker.com/_/nginx)** and **[
 
 1. Clone this repository in your project folder.
 ```
-$ git clone https://github.com/grunburg/docker-server-setup
+$ git clone https://github.com/grunburg/docker-server-setup .
 ```
 2. Edit [default.conf](https://github.com/grunburg/docker-server-setup/blob/master/default.conf) and [docker-compose.yml](https://github.com/grunburg/docker-server-setup/blob/master/docker-compose.yml): ports, volumes, etc.
 

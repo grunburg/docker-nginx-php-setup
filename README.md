@@ -1,4 +1,4 @@
-# docker-server-setup
+# docker-nginx-php-setup
 Docker web-server which uses **[NGINX](https://hub.docker.com/_/nginx)** and **[PHP](https://hub.docker.com/_/php)** images.
 
 > Notice: I have **MySQL** server on my local machine. If you're planning to use **MySQL** server on Docker's VM, feel free to edit the files or choose other setup.
@@ -7,9 +7,9 @@ Docker web-server which uses **[NGINX](https://hub.docker.com/_/nginx)** and **[
 
 1. Clone this repository in your project folder.
 ```
-$ git clone https://github.com/grunburg/docker-server-setup .
+$ git clone https://github.com/grunburg/docker-nginx-php-setup .
 ```
-2. Edit [default.conf](https://github.com/grunburg/docker-server-setup/blob/master/default.conf) and [docker-compose.yml](https://github.com/grunburg/docker-server-setup/blob/master/docker-compose.yml): ports, volumes, etc.
+2. Edit [default.conf](https://github.com/grunburg/docker-nginx-php-setup/blob/master/default.conf) and [docker-compose.yml](https://github.com/grunburg/docker-nginx-php-setup/blob/master/docker-compose.yml): ports, volumes, etc.
 
 3. To start the server, navigate to your folder via Terminal and run this command:
 ```

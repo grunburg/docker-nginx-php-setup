@@ -1,7 +1,7 @@
 # docker-nginx-php-setup
-Docker web-server which uses **[NGINX](https://hub.docker.com/_/nginx)** and **[PHP](https://hub.docker.com/_/php)** images.
+Docker, for Laravel made, web-server which uses **[NGINX](https://hub.docker.com/_/nginx)** and **[PHP](https://hub.docker.com/_/php)** images.
 
-> Notice: I have **MySQL** server on my local machine. If you're planning to use **MySQL** server on Docker's VM, feel free to edit the files or choose other setup.
+> If you're searching for a Docker setup that includes database service like postgres (it's easily changeable), look into this repo https://github.com/grunburg/docker-nginx-php-pgsql-setup
 
 ### Installation
 
